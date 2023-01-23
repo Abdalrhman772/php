@@ -46,9 +46,10 @@ if (isset($_POST["submit"])) {
 
 <html>
 <style>
-    body{
-        background-color: #FEFFF6;
+    body {
+        background-color: #F8F9EC;
     }
+
     main,
     section {
         display: grid;
@@ -57,7 +58,8 @@ if (isset($_POST["submit"])) {
     }
 
     table {
-        border: solid 2px seagreen;
+        border: solid 2px goldenrod;
+        border-radius: 5px;
         background-color: lightgoldenrodyellow;
         padding: 5px;
     }
